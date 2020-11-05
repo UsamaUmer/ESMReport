@@ -1,0 +1,310 @@
+  #navbar{
+      width: 100%;
+      height: 187px;
+      background-color: rgb(245, 51, 63, 0.9);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  #navbar #logo, #navbar #rightmenu{
+    margin: 60px 50px 0px 50px;
+  }
+
+  #navbar ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+  }
+  #navbar ul li{
+      display: inline;
+      margin: 0px 10px 0px 10px;
+  }
+  #navbar ul li a:hover{
+      color: black;
+  }
+  #navbar ul li .active{
+      border: solid white 2px;
+      border-radius: 5px;
+      padding: 7px 15px 7px 15px;
+      margin: 0px 5px 0px 5px;
+  }
+  
+  
+  .homeslider{
+      text-align: center;
+      background-color: #F5333F;
+      width: 960px;
+      margin-top: -350PX;
+      position: relative;
+      z-index: 1;
+  }
+  
+
+  
+
+
+  /* Procurement */
+    #procurement .row4 .column3{
+            width: 342px;
+            height: 493px;
+            background-color: #F1E3D3;
+            margin-bottom: 30px;
+        }
+    .column3center h1{
+        font-size: 36px;color: rgb(245, 51, 63);
+    }
+    
+    .column3center p{
+        font-size: 18px;color: rgb(245, 51, 63);
+    }
+
+    .centerparagraph{
+        text-align: center;
+     }
+    .column4center .italic{
+        font-style: italic;
+        font-size: 18px;
+    }
+    .column4center p{
+        font-size: 24px;
+    }
+
+    .centerparagraph h1{
+        font-size: 72px;
+    }
+    .centerparagraph p{
+        font-size: 30px;
+    }
+  
+  /* Footer  */
+  #footer{
+      background-color: #000000;
+      color: white;
+      height: 70px;
+      padding-top: 20px;
+  }
+  
+
+
+
+    /* Suppiler Section  */
+    #suppiler .networkimages img{
+        margin: 10px;
+    }
+    #suppiler, .column4center, .column3center{
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+    }
+    #suppiler button, #help button{
+        background-color:  rgb(245, 51, 63);
+        border-radius: 2px;
+        color: white;
+        padding: 10px 15px 10px 15px;
+        margin: 15px;
+        border: none;
+        font-size: 16px;
+    }
+  
+    /* ESM */
+    #esm{
+        background-color: rgb(245, 51, 63);
+        color: white;
+    }
+    #esm .row4 .column3{
+        width: 342px;
+        height: 493px;
+        margin-bottom: 30px;
+    }
+    #esm .row4 div{
+        margin-top: 170px;
+    }
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Casestudies */
+
+  /* slider  */
+  .Sliderss {display: none}
+  img {vertical-align: middle;}
+  .clear{
+      clear: both;
+  }
+  /* Slideshow container */
+  .slidesho-container {
+    width: 100%;
+    height:auto;
+    position: relative;
+    margin-top: 150px;
+  }
+  .slidesho-container .morecasestudy{
+    color: #F4303F;
+
+  }
+  .slidesho-container .morecasestudy h1{
+    font-size: 72px;
+  }
+
+  .slidesho-container .Imagesdiv{
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+  }
+  .slidesho-container .Imagesdiv div{
+    width: 468px; 
+    height: 590px; 
+    background-color:none;
+  }
+  .Sliderss{
+    background-color:white; 
+    margin-left: auto;
+    margin-right: auto;
+    width:90%; 
+    height: auto;
+  }
+  /* nextt & prevvious buttons */
+  .prevv, .nextt {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #F4303F;
+    font-weight: lighter;
+    font-size: 58px;
+    transition: 0.6s ease;
+    user-select: none;
+  }
+  /* Position the "nextt button" to the right */
+  .nextt {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* Fading animation */
+  .fadee {
+    -webkit-animation-name: fadee;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fadee;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fadee {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  @keyframes fadee {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  /* On smaller screens, decrease textt size */
+  @media only screen and (max-width: 300px) {
+    .prevv, .nextt,.textt {font-size: 11px}
+  }
+   /* Casestudies */
+  
+  
+  /* test */
+  
+  #footer p, #esm, #casestudies, #platform, #procurement{
+      padding: 0px 200px 0px 100px;
+  }
+
+  #platform .row3{
+      margin-top: 20px;
+  }
+  
+  
+  
+  /* Homeslider  */
+  
+  .slideshow-container {
+      position: relative;
+      width: 960px;
+      margin: auto;
+    }
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      padding-top: 30px;
+      font-size: 30px;
+    }
+    
+    /* Number text (1/3 etc) */
+      .numbertext {
+          padding-top: 30px;
+      color: #f2f2f2;
+      font-size: 96px;
+    }
+    
+    /* The dots/bullets/indicators */
+    #dothandler{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        text-align: center;
+    }
+    .mySlides div button, #success .homeslider div button{
+        margin: 30px 20px 30px 0px;
+        color: #F5333F; 
+        background-color: white;
+        border: none; 
+        border-radius: 5px; 
+        width: 218px;
+        height: 50px;
+        /* margin-right: 20px; */
+    }
+    
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: white;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active1, .dot:hover {
+      background-color: Black;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    

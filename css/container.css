@@ -1,0 +1,114 @@
+body{
+    margin: 0; 
+    padding: 0;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 500px) {
+      .container {
+        width: 100%;
+      }
+    }
+  @media (min-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 100%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+  }
+    @media (min-width: 1920px) {
+      .container {
+        width: 1920px;
+        overflow: hidden;
+      }  
+  
+  }
+
+  #footer p, #esm, #casestudies, #platform, #procurement{
+    padding: 0px 200px 0px 100px;
+}
+
+
+.center{
+    background-color: #BB7726;
+    height: 410px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.center div{
+    padding-top:83px;
+}
+.center h1{
+    margin: 0;
+    padding: 0;
+    font-size: 72px;
+}
+.center p{
+    font-size: 30px;
+}
+
+.row4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.column4{
+    width: 466px;
+    height: 644px;
+    margin-bottom: 30px;
+    color: white;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+.column6{
+    width: 466px;
+    height: 644px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.column4 button, .column6 button{
+    height: 50px;
+    width: 218px;
+    border: solid white 2px;
+    border-radius: 2px;
+    background-color: none;
+    font-size: 16px;
+    color: white;
+    background: unset !important;
+}
+
+
+
+
+
+a, div, button,  p{
+    font-family: NewJuneBook, sans-serif;
+}
+
+.numbertext, h1{
+    font-family: Blacker Pro Display, sans-serif;
+}
