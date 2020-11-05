@@ -166,10 +166,13 @@
   .slidesho-container .Imagesdiv{
     display: flex; flex-wrap: wrap; justify-content: space-between;
   }
-  .slidesho-container .Imagesdiv div{
+  .slidesho-container .Imagesdiv .innerimagediv{
     width: 468px; 
     height: 590px; 
     background-color:none;
+  }
+  .slidesho-container .Imagesdiv .innerimagediv .Imagespara{
+    margin-top: 50px;
   }
   .Sliderss{
     background-color:white; 
